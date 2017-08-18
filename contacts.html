@@ -6,22 +6,28 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<ul class="main-menu">
-    <li><a href="index.html">Главная</a></li>
-    <li><a href="catalog.html">Каталог</a></li>
-    <li>Контакты</li>
-</ul>
-<hr>
+<div class="header">
+	<a href="index.html"><img class="im" src="materials/logo.png" alt="Home" width="100"/></a>
+	<ul class="main-menu">
+		<li><a href="index.html">Главная</a></li>
+		<li><a href="catalog.html">Каталог</a></li>
+		<li>Контакты</li>
+	</ul>
+	<hr>
+</div>
 <h1>Контакты</h1>
-<h3><i>Напишите нам<i></h3>
+<h3><i>Напишите нам</i></h3>
 <form>
-    <fieldset id="contacts">
+    <fieldset class="contacts">
         <legend>Ваши контактные данные</legend>
         <input size="30" placeholder="Ваше имя">
         <br>
-        <input size="30" placeholder="Ваш email">
+        <br>
+        <input size="30" placeholder="Ваш email" id="email">
+        <br>
         <br>
         <input size="30" placeholder="Тема">
+        <br>
         <br>
         <textarea placeholder="Ваше сообщение"></textarea>
     </fieldset>
@@ -32,10 +38,11 @@
     <li>Телефон: 123-45-67</li>
     <li>jack@heattheroad.ru</li>
 </ul>
-<hr>
-<footer>
-    <small>Все права защищены &copy;</small>
-</footer>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3996.2749814062986!2d30.371159394820125!3d59.94645312629299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1503066018303" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<div class="footer">
+	<hr>
+	<small>Все права защищены &copy;</small>
+</div>
 </body>
 </html>
 
